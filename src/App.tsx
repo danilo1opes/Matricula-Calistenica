@@ -3,6 +3,8 @@ import { Menu } from 'lucide-react';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import RotinePage from './pages/RotinePage';
 import HeroSection from './components/HeroSection';
+import WhySection from './components/WhySection';
+import TrainingPlans from './components/TrainingPlans';
 function App() {
   return (
     <ErrorBoundary>
@@ -61,6 +63,8 @@ function App() {
                 element={
                   <>
                     <HeroSection />
+                    <WhySection />
+                    <TrainingPlans />
                   </>
                 }
               ></Route>
