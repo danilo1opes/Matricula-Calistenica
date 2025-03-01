@@ -5,6 +5,7 @@ import RotinePage from './pages/RotinePage';
 import HeroSection from './components/HeroSection';
 import WhySection from './components/WhySection';
 import TrainingPlans from './components/TrainingPlans';
+import ContactSection from './components/ContactSection';
 function App() {
   return (
     <ErrorBoundary>
@@ -65,6 +66,7 @@ function App() {
                     <HeroSection />
                     <WhySection />
                     <TrainingPlans />
+                    <ContactSection />
                   </>
                 }
               ></Route>
